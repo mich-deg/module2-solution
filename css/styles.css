@@ -28,17 +28,19 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 1.25em;
 }
 #chicken {
   background: lightcoral;
+  font-size: 1.25em;
 }
 #beef {
   background: brown;
   color: white;
+  font-size: 1.25em;
 }
 #sushi {
   background: rgb(239, 239, 98);
+  font-size: 1.25em;
 }
 .section-content {
   padding: 8px;
