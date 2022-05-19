@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+#our_menu {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.75em;
+}
+.content {
+  background: gray;
+  border: solid black 1px;
+  margin: 8px;
+  position: relative;
+}
+
+.section-title {
+  width: 150px;
+  text-align: center;
+  border-bottom: solid black 1px;
+  border-left: solid black 1px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.25em;
+}
+#chicken {
+  background: lightcoral;
+}
+#beef {
+  background: brown;
+  color: white;
+}
+#sushi {
+  background: rgb(239, 239, 98);
+}
+.section-content {
+  padding: 8px;
+  margin-top: 25px;
+}
+
+@media (min-width: 992px) {
+  .content {
+    width: 30%;
+    display: inline-block;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .content {
+    width: 45%;
+    display: inline-block;
+  }
+  #section_sushi {
+    display: block;
+    width: 92.5%;
+  }
+}
+@media (max-width: 767px) {
+  .content {
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+  }
+}
